@@ -1,0 +1,21 @@
+{
+  "name": "leetcode.com",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Ruslan Gilmullin <mellonis@yandex.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.1.0"
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.7"
+  }
+}
