@@ -11,9 +11,7 @@ function ListNode(val, next) {
 function mergeTwoLists(l1, l2) {
   let l1c = l1;
   let l2c = l2;
-  const fake = {
-    next: null,
-  };
+  const fake = new ListNode(null, null);
   let current = fake;
 
   while (l1c && l2c) {
