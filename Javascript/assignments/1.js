@@ -14,4 +14,4 @@ function twoSum(nums, target) {
   }
 }
 
-module.exports = twoSum;
+exports.twoSum = twoSum;

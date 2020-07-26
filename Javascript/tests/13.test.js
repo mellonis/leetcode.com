@@ -1,4 +1,6 @@
-const romanToInt = require('../assignments/13');
+const {
+  romanToInt,
+} = require('../assignments/13');
 
 test('tests from site', () => {
   expect(romanToInt('III')).toBe(3);

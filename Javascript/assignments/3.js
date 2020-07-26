@@ -29,4 +29,4 @@ function lengthOfLongestSubstring(s) {
   return maxSubstrLength;
 }
 
-module.exports = lengthOfLongestSubstring;
+exports.lengthOfLongestSubstring = lengthOfLongestSubstring;

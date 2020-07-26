@@ -15,4 +15,4 @@ function isPalindrome(x) {
   return true;
 }
 
-module.exports = isPalindrome;
+exports.isPalindrome = isPalindrome;

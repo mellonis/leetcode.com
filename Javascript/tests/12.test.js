@@ -1,4 +1,6 @@
-const intToRoman = require('../assignments/12');
+const {
+  intToRoman,
+} = require('../assignments/12');
 
 test('tests from site', () => {
   expect(intToRoman(3)).toBe('III');

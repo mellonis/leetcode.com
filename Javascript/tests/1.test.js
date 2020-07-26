@@ -1,4 +1,6 @@
-const twoSum = require('../assignments/1');
+const {
+  twoSum,
+} = require('../assignments/1');
 
 test('from site', () => {
   expect(twoSum([3, 2, 4], 6)).toEqual([1, 2]);

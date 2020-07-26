@@ -19,4 +19,4 @@ function convert(s, numRows) {
   return rows.reduce((result, row) => result + row);
 }
 
-module.exports = convert;
+exports.convert = convert;

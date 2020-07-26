@@ -1,4 +1,6 @@
-const isValid = require('../assignments/20');
+const {
+  isValid,
+} = require('../assignments/20');
 
 test('from site', () => {
   expect(isValid('()')).toBe(true);

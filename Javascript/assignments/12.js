@@ -35,4 +35,4 @@ function intToRoman(num) {
   return result;
 }
 
-module.exports = intToRoman;
+exports.intToRoman = intToRoman;

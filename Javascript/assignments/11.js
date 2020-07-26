@@ -27,4 +27,4 @@ function maxArea(heightList) {
   return maxAreaValue;
 }
 
-module.exports = maxArea;
+exports.maxArea = maxArea;

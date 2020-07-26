@@ -26,4 +26,4 @@ function romanToInt(s) {
     }, 0);
 }
 
-module.exports = romanToInt;
+exports.romanToInt = romanToInt;

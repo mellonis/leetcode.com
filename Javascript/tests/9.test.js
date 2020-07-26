@@ -1,4 +1,6 @@
-const isPalindrome = require('../assignments/9');
+const {
+  isPalindrome,
+} = require('../assignments/9');
 
 test('from site', () => {
   expect(isPalindrome(121)).toBe(true);

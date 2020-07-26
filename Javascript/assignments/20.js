@@ -21,4 +21,4 @@ function isValid(s) {
   }) && stack.length === 0;
 }
 
-module.exports = isValid;
+exports.isValid = isValid;

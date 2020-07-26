@@ -1,4 +1,6 @@
-const longestCommonPrefix = require('../assignments/14');
+const {
+  longestCommonPrefix,
+} = require('../assignments/14');
 
 test('from site', () => {
   expect(longestCommonPrefix(['flower', 'flow', 'flight'])).toBe('fl');
